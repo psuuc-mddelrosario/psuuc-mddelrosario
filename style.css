@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+section{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 100px;
+
+}
+header ul{
+    position: relative;
+    display: flex;
+
+}
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 1000;
+    margin-left: 150px;
+    text-decoration: none;
+    font-size: large;
+}
+
+header ul li a:hover{
+    transform: scale(1.1);
+
+}
+
+.top-section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-section .textBox{
+    position: relative;
+    max-width: 600px;
+}
+
+.top-section .textBox h2{
+    color: #ffffff;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 600;
+}
+
+.top-section .textBox h2 span {
+    color: rgb(139, 59, 205);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.top-section .textBox p {
+    color: #ffffff;
+    font-size: 300;
+
+}
+
+.top-section .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(139, 59, 205);
+    color: #fff;
+    border-radius:20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.top-section .textBox a:hover{
+    transform: scale(1.1);
+}
+
+.top-section .hero-image{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px ;
+    margin-top: 50px;
+    transition: 0.1s;
+}
+
+.top-section .hero-image img{
+    max-width: 600px;
+}
+
+.top-section .hero-image img:hover{
+    transform: translateY(-15px);
+}
+
+.design{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(171, 58, 132,0.5);
+    clip-path:circle(550px at right 700px);
+
+}
+
+.About-me {
+    background-color: rgb(204, 187, 222);
+  }
+
+.top-section {
+  padding: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#col1 {
+  max-width: 1000px;
+  margin: auto;
+  text-align: justify;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.skills {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+.skills h3 {
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  margin-right: 50%;
+  margin-bottom: 20px;
+  
+}
+
+.skills img {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  z-index: 0;
+  margin-bottom: 50px ;
+}
+
+.skills a {
+  text-decoration: none;
+  color: inherit;
+}
+  
+.skills img:hover {
+    transform: scale(1.1);
+  }
+
+
+.footer p{
+    font-size: small;
+    color: #cfb3b3;
+
+}
+
+
+  .top-section2{
+    background-color: rgb(62, 62, 62);
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+.row{
+    margin-top: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.f{
+    color: rgb(161, 161, 161);
+}
+  
+.footer .logo{
+    max-width: 80px;
+    text-align: left;
+}
+#footer-nav{
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.contact{
+    margin-top: 100px;
+}
+.footer .contact-1{
+    text-decoration: none;
+}
+
+.socials{
+    display: flex;
+}
+
+.text{
+    flex-basis: 100%;
+    margin-left: 50px;
+}
+
+.soc-med{
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.contact .contact-1{
+    font-size: medium;
+    
+}
+
+.soc-med img{
+    width: 40px;
+
+}
+.soc-med img:hover{
+    transform: scale(1.1);
+
+}
+
+
+.copyright{
+    display: block;
+    text-align: center;
+    background-color: rgba(83, 82, 82, 0.5);
+}
+.copyright p{
+    font-size: small;
+}
